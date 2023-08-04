@@ -1,0 +1,248 @@
+/*  HEADER */
+
+header{
+    display: flex;
+    margin: 50px ;
+       align-items: center;
+}
+
+.input{
+     
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 10rem;
+}
+
+.icono-placeholder{
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-family: Raleway;
+    width: 330px;
+    margin-left: 5rem;
+   
+}
+
+.icono-placeholder:focus{
+    outline: none;
+}
+
+.img_buscar{
+    position: absolute;
+ 
+    background: #f2f2f2;
+    border-radius: 15px;
+    margin-left: 25rem;
+    
+    padding: 5px;
+    
+}
+
+.login{
+    background: none;
+    border: 2px solid #2a7ae4 ;
+    color: #2a7ae4;
+    padding: 15px 15px;
+    width: 182px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* BANNER */
+
+
+.banner{
+    background-image: url(/img/banner.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 200px;
+    color: #f2f2f2;
+    
+   
+}
+
+.titulo_banner{
+    font-size: 52px;
+    font-family: Raleway;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.sub_banner{
+    font-size: 22px;
+    margin-bottom: 3rem;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.boton-banner{
+    font-family: Raleway;
+    font-size: 16px;
+    background: #2a7ae4;
+    color: #ffffff;
+    border: none;
+    padding: 20px ;
+    text-align: center;
+    cursor: pointer;
+   
+    
+}
+
+
+/* CARDS  */
+
+
+.productos_container{
+    height: 306px;
+   
+    margin: 100px 300px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 37px;
+    color: #464646;
+    align-items: center;
+}
+
+.title a{
+    color: #2a7ae4;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.productos{
+    display: flex;
+    margin-top: 25px;
+   
+    justify-content: space-between;
+}
+
+.productos_card{
+    width: 176px;
+    height: 252px;
+    font-family: Raleway;
+    gap: 16px;
+}
+
+.productos_card img{
+    width: 176px;
+    height: 174px;
+    object-fit: cover;
+    
+}
+
+.productos_card p{
+    margin-top: 10px;
+    
+}
+
+.precio_producto{
+    font-weight: bolder;
+}
+
+.link_producto{
+    font-weight: bolder;
+    color: #2a7ae4;
+}
+
+
+
+/*   FOOTER   */
+
+
+.footer{
+    height: 368px;
+    display: flex;
+    background: #eaf2fd;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+
+
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+  
+    font-family: Raleway;
+}
+
+.footer_links a{
+    margin-top: 30px;
+    text-decoration: none;
+    line-height: 18px;
+    font-weight: bolder;
+    color: #464646;
+}
+
+.footer_form{
+    display: flex;
+    flex-direction: column;
+   
+    font-family: Raleway;
+}
+
+.footer_form p{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.footer_form input{
+    width: 500px;
+    height: 30px;
+    gap: 8px;
+    border: none;
+    font-size: 16px;
+    font-family: Raleway;
+}
+
+.footer_form input:focus{
+   outline: none;
+}
+
+.footer_form label{
+    margin-top: 15px;
+    padding: 10px;
+    background: #ffffff;
+
+}
+
+.footer_form .boton{
+      width: 150px;
+      height: 50px;
+      padding: 16px;
+      margin-top: 15px;
+      background: #2a7ae4 ;
+      color: #ffffff;
+}
+
+.rodapie_footer{
+    text-align: center;
+    font-family: Raleway;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    font-size: 18.78px;
+    font-weight: bolder;
+}
+
+
+
+
